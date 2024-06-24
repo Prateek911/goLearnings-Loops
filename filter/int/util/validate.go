@@ -6,11 +6,6 @@ import (
 
 func ValidateString(input string) (validate bool) {
 
-	if strings.TrimSpace(input) == "" {
-		return false
-
-	}
-
-	return true
+	return strings.TrimSpace(input) == ""
 
 }
